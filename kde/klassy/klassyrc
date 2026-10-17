@@ -1,11 +1,18 @@
-[Global]
-LookAndFeelSet=com.github.vinceliuice.Layan
+[ButtonColors]
+ButtonOverrideColorsActiveClose={"IconNormal":[99,208,223],"IconHover":[29,24,40],"IconPress":[29,24,40],"BackgroundHover":[99,208,223],"BackgroundPress":[70,99,208,223]}
+ButtonOverrideColorsActiveMaximize={"IconNormal":[99,208,223],"IconHover":[29,24,40],"IconPress":[29,24,40],"BackgroundHover":[99,208,223],"BackgroundPress":[70,99,208,223]}
+ButtonOverrideColorsActiveMinimize={"IconNormal":[99,208,223],"IconHover":[29,24,40],"IconPress":[29,24,40],"BackgroundHover":[99,208,223],"BackgroundPress":[70,99,208,223]}
 
 [WindowOutlineStyle]
+ColorizeWindowOutlineWithButton=false
 LockWindowOutlineCustomColorActiveInactive=false
 LockWindowOutlineStyleActiveInactive=false
-WindowOutlineCustomColorActive=229,124,196
+VaryColorOutlineActive=false
+WindowOutlineContrastActive=false
+WindowOutlineCustomColorActive=99,208,223
+WindowOutlineCustomColorInactive=99,208,223
 WindowOutlineCustomColorOpacityActive=100
+WindowOutlineCustomWithContrastActive=false
 WindowOutlineStyleActive=WindowOutlineCustomColor
 WindowOutlineStyleInactive=WindowOutlineNone
-WindowOutlineThickness=2.5
+WindowOutlineThickness=3

@@ -87,4 +87,4 @@ aktueller Look nach `~/.config/cosmic-backup-<datum>/` gesichert. Danach einmal 
 
 ## KDE Plasma 6
 
-Portierung in [`kde/`](kde/) – ein Skript setzt Farbschema, Konsole, Hintergrund, roten Zeiger, Fensterdeko (Klassy: lila Titel + rosa Rahmen) und Claude-Code-Theme: `./kde/install.sh`. Details: [`kde/README-kde.md`](kde/README-kde.md).
+Portierung in [`kde/`](kde/) – ein Skript setzt Farbschema, Plasma-Stil, Konsole, Hintergrund, Symbole, roten Zeiger, Fensterdeko (Klassy: lila Titel, türkiser Rahmen + Knöpfe wie unter COSMIC 1.10) und Claude-Code-Theme: `./kde/install.sh`. Details: [`kde/README-kde.md`](kde/README-kde.md).
