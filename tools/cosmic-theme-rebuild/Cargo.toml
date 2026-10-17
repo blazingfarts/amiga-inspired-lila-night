@@ -1,0 +1,9 @@
+[package]
+name = "cosmic-theme-rebuild"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ron = "0.12"
+cosmic-config = { git = "https://github.com/pop-os/libcosmic", rev = "18d76659f2aa5509a04da37d2a63a7d6b3116156" }
+cosmic-theme = { git = "https://github.com/pop-os/libcosmic", rev = "18d76659f2aa5509a04da37d2a63a7d6b3116156" }
