@@ -18,6 +18,7 @@ icons, a lilac cloud sky with the famous checkered ball – and a terminal that 
 | Wallpapers | `wallpapers/` | lilac clouds with checkered ball (+ darker variant) |
 | Glossy icons | `icons/Amiga-Glanz/` | uses **Oxygen** icons, Papirus as fallback, COSMIC apps mapped to Oxygen |
 | Big red mouse pointer (optional) | `cursor/make-red-cursor.py` | recolors your local Adwaita cursors, size 48 |
+| Firefox theme | `firefox/`, `firefox-amiga-lila-night.xpi` | terminal colors in the browser, lilac cloud strip behind the tabs |
 | Claude Code colors (optional) | `claude-code/amiga-night.json` | matching theme for the Claude Code CLI |
 | Rebuild tool (optional) | `tools/cosmic-theme-rebuild/` | rebuilds the COSMIC theme after editing builder files, exports `.ron` |
 
@@ -39,6 +40,20 @@ Your current look is backed up to `~/.config/cosmic-backup-<date>/` first. Log o
 **Only the colors?** Settings → Appearance → Import → `cosmic/amiga-inspired-lila-night.ron`.
 **Only the terminal?** COSMIC Terminal → Settings → Color schemes → Import → `terminal/amiga-inspired-lila-night-terminal.ron`.
 
+## Firefox
+
+The Firefox theme uses exactly the terminal colors: night-violet tab bar with a subtle lilac cloud strip,
+plum active tab with a pink line, lavender focus ring in the address bar.
+
+- **From addons.mozilla.org** (once approved): search for *Amiga-inspired Lila Night*.
+- **Manually (Fedora and other builds that allow unsigned add-ons in the app folder):**
+  ```bash
+  sudo install -m 644 firefox-amiga-lila-night.xpi \
+    "/usr/lib64/firefox/browser/extensions/amiga-lila-night@blazingfarts.xpi"
+  ```
+  Restart Firefox, then *Add-ons and themes → Themes → Enable*.
+- **Just try it:** `about:debugging` → *This Firefox* → *Load Temporary Add-on* → pick `firefox/manifest.json` (until restart).
+
 ## Palette
 
 | | Hex |
@@ -58,7 +73,7 @@ Ein dunkles (aber nicht schwarzes) Theme für **COSMIC**, angelehnt an AmigaOS 3
 Lavendel-Akzente, rosa Rahmen ums aktive Fenster, glänzende Symbole wie 2008, lila Wolkenhimmel mit Boing-Ball –
 und ein Terminal, das die Augen schont.
 
-Installation: siehe oben (`bash install.sh`, optional `--with-cursor`, `--with-claude-code`). Vorher wird dein
+Installation: siehe oben (`bash install.sh`, optional `--with-cursor`, `--with-claude-code`). Für Firefox gibt es ein passendes Theme in den Konsolenfarben (Abschnitt *Firefox*). Vorher wird dein
 aktueller Look nach `~/.config/cosmic-backup-<datum>/` gesichert. Danach einmal ab- und anmelden.
 
 ## Credits & licenses
