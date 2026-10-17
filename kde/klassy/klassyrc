@@ -1,0 +1,11 @@
+[Global]
+LookAndFeelSet=com.github.vinceliuice.Layan
+
+[WindowOutlineStyle]
+LockWindowOutlineCustomColorActiveInactive=false
+LockWindowOutlineStyleActiveInactive=false
+WindowOutlineCustomColorActive=229,124,196
+WindowOutlineCustomColorOpacityActive=100
+WindowOutlineStyleActive=WindowOutlineCustomColor
+WindowOutlineStyleInactive=WindowOutlineNone
+WindowOutlineThickness=2.5

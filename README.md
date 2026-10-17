@@ -84,3 +84,7 @@ aktueller Look nach `~/.config/cosmic-backup-<datum>/` gesichert. Danach einmal 
 - Icons are **not** included – they come from your distro's Oxygen (LGPL) and Papirus (GPL-3) packages.
 - The red cursor is generated locally from your Adwaita cursors (CC-BY-SA 3.0 / LGPL-3); no cursor files are shipped.
 - This is a fan theme. *Amiga* and *AmigaOS* are trademarks of their respective owners; not affiliated or endorsed.
+
+## KDE Plasma 6
+
+Portierung in [`kde/`](kde/) – ein Skript setzt Farbschema, Konsole, Hintergrund, roten Zeiger, Fensterdeko (Klassy: lila Titel + rosa Rahmen) und Claude-Code-Theme: `./kde/install.sh`. Details: [`kde/README-kde.md`](kde/README-kde.md).
