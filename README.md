@@ -1,7 +1,7 @@
 # Amiga-inspired Lila Night – a COSMIC theme
 
 A dark (but not black) theme for the **COSMIC desktop**, inspired by AmigaOS 3.1 / 4.1:
-deep plum windows, lavender accents, a pink frame around the active window, glossy 2008-style
+deep plum windows, lavender accents, a turquoise frame around the active window, glossy 2008-style
 icons, a lilac cloud sky with the famous checkered ball – and a terminal that is easy on the eyes.
 
 ![Preview](screenshots/preview.png)
@@ -61,7 +61,8 @@ plum active tab with a pink line, lavender focus ring in the address bar.
 | Background | `#262033` |
 | Containers | `#312A41` / `#3B3350` |
 | Accent (lavender) | `#B48CF2` |
-| Active window frame (pink) | `#E57CC4` |
+| Active window frame | COSMIC turquoise `#63D0DF` (COSMIC 1.10 draws the frame from its own theme format; it fits nicely) |
+| Pink highlight (terminal cursor) | `#E57CC4` |
 | Success / Warning / Error | `#5CC48A` / `#F0B44C` / `#F06A7A` |
 | Terminal background / text | `#1D1828` / `#F0EAF8` |
 
@@ -70,7 +71,7 @@ plum active tab with a pink line, lavender focus ring in the address bar.
 ## Deutsch
 
 Ein dunkles (aber nicht schwarzes) Theme für **COSMIC**, angelehnt an AmigaOS 3.1/4.1: Fenster in Pflaume,
-Lavendel-Akzente, rosa Rahmen ums aktive Fenster, glänzende Symbole wie 2008, lila Wolkenhimmel mit Boing-Ball –
+Lavendel-Akzente, türkiser Rahmen ums aktive Fenster, glänzende Symbole wie 2008, lila Wolkenhimmel mit Boing-Ball –
 und ein Terminal, das die Augen schont.
 
 Installation: siehe oben (`bash install.sh`, optional `--with-cursor`, `--with-claude-code`). Für Firefox gibt es ein passendes Theme in den Konsolenfarben (Abschnitt *Firefox*). Vorher wird dein
