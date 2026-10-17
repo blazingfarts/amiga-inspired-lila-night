@@ -45,7 +45,7 @@ Your current look is backed up to `~/.config/cosmic-backup-<date>/` first. Log o
 The Firefox theme uses exactly the terminal colors: night-violet tab bar with a subtle lilac cloud strip,
 plum active tab with a pink line, lavender focus ring in the address bar.
 
-- **From addons.mozilla.org** (once approved): search for *Amiga-inspired Lila Night*.
+- **From addons.mozilla.org:** https://addons.mozilla.org/firefox/addon/amiga-inspired-lila-night/ (in review – live once Mozilla approves it)
 - **Manually (Fedora and other builds that allow unsigned add-ons in the app folder):**
   ```bash
   sudo install -m 644 firefox-amiga-lila-night.xpi \
@@ -78,7 +78,7 @@ aktueller Look nach `~/.config/cosmic-backup-<datum>/` gesichert. Danach einmal 
 
 ## Credits & licenses
 
-- Theme files, scripts and the rebuild tool: **MIT** (see `LICENSE`). The rebuild tool uses libcosmic (MPL-2.0).
+- Theme files, scripts and the rebuild tool: **MIT** (see `LICENSE`). The Firefox theme on addons.mozilla.org is listed under **CC BY 4.0** (Mozilla only allows Creative Commons licenses for themes). The rebuild tool uses libcosmic (MPL-2.0).
 - Wallpapers: AI-generated (Google Gemini) and recolored by hand; free to use.
 - Icons are **not** included – they come from your distro's Oxygen (LGPL) and Papirus (GPL-3) packages.
 - The red cursor is generated locally from your Adwaita cursors (CC-BY-SA 3.0 / LGPL-3); no cursor files are shipped.
