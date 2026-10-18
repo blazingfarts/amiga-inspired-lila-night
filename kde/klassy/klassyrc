@@ -15,4 +15,4 @@ WindowOutlineCustomColorOpacityActive=100
 WindowOutlineCustomWithContrastActive=false
 WindowOutlineStyleActive=WindowOutlineCustomColor
 WindowOutlineStyleInactive=WindowOutlineNone
-WindowOutlineThickness=3
+WindowOutlineThickness=2

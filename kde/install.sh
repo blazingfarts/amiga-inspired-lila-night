@@ -44,7 +44,7 @@ for g in ~/.config/gtk-3.0/settings.ini ~/.config/gtk-4.0/settings.ini; do
     [ -f "$g" ] && sed -i 's/^gtk-cursor-theme-size=.*/gtk-cursor-theme-size=48/' "$g"
 done
 
-msg "Fensterdeko: lila Titel, türkiser Rahmen (3 px) + türkise Knöpfe am aktiven Fenster"
+msg "Fensterdeko: lila Titel, türkiser Rahmen (2 px) + türkise Knöpfe am aktiven Fenster"
 mkdir -p ~/.config/klassy
 cp kde/klassy/klassyrc ~/.config/klassy/klassyrc
 if [ -f /usr/lib/qt6/plugins/org.kde.kdecoration3/org.kde.klassy.so ]; then

@@ -18,7 +18,7 @@ Voraussetzungen: `oxygen-icons` und `papirus-icon-theme` (Arch/CachyOS; Fedora/D
 |---|---|
 | `color-schemes/AmigaLilaNight.colors` | Plasma-Farbschema aus der Lila-Palette, Akzent Lavendel |
 | `konsole/LilaNacht.colorscheme` + `.profile` | Terminal „Lila Nacht“ (Schrift: Adwaita Mono, rosa Cursor) |
-| `klassy/klassyrc` | Fensterdeko: lila Titel, **türkiser Rahmen** (3 px) und türkise Knöpfe am aktiven Fenster |
+| `klassy/klassyrc` | Fensterdeko: lila Titel, **türkiser Rahmen** (2 px) und türkise Knöpfe am aktiven Fenster |
 | `install.sh` | installiert alles |
 
 Hintergrund (`wallpapers/lila-clouds-boing.png`), Symbole (`icons/Amiga-Glanz`), Zeiger (`cursor/make-red-cursor.py`) und Claude-Theme (`claude-code/amiga-night.json`) kommen aus dem Hauptrepo.
