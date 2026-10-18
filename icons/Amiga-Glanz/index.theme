@@ -2,6 +2,7 @@
 Name=Amiga-Glanz
 Comment=Glossy Oxygen icons (2008 era, like AmigaOS 4) with Papirus as fallback; COSMIC apps mapped to Oxygen
 Inherits=oxygen,Papirus,breeze,hicolor
+FollowsColorScheme=true
 Directories=128x128/apps
 
 [128x128/apps]

@@ -47,6 +47,7 @@ Braucht `extra-cmake-modules` und die KF6-Entwicklungspakete. Ohne Klassy fällt
 * `plasma-apply-colorscheme` lädt ein Schema mit **unverändertem Namen nicht neu**. Nach Änderungen an der `.colors`-Datei erst `BreezeDark`, dann wieder `AmigaLilaNight` anwenden (macht `install.sh`).
 * Eine eigene **Akzentfarbe** (`AccentColor` in `kdeglobals`) überschreibt das Lavendel des Schemas. `install.sh` entfernt sie.
 * Plasma-Stile außer „default“ (z. B. Layan) bringen eigene Leistenfarben mit und ignorieren das Schema.
+* Das Symbolthema braucht `FollowsColorScheme=true` in `index.theme`, sonst bleiben die Oxygen-Leistensymbole dunkelgrau auf dunkler Leiste. Nach dem Ändern `systemctl --user restart plasma-plasmashell`.
 
 ## Firefox
 
